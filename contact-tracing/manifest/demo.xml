@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Contact_Tracing</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Location_Tracing__c.Location__c</members>
+        <members>Location_Tracing__c.Person__c</members>
+        <members>Location_Tracing__c.Visit_Date__c</members>
+        <members>Location__c.Address__c</members>
+        <members>Location__c.Pincode__c</members>
+        <members>Location__c.Red_Score__c</members>
+        <members>Location__c.Status_Update_Date__c</members>
+        <members>Location__c.Status__c</members>
+        <members>People_Tracing__c.Contact_Date__c</members>
+        <members>People_Tracing__c.Contact_Type__c</members>
+        <members>People_Tracing__c.Person_1__c</members>
+        <members>People_Tracing__c.Person_2__c</members>
+        <members>Person__c.Health_Status__c</members>
+        <members>Person__c.Mobile__c</members>
+        <members>Person__c.Status_Update_Date__c</members>
+        <members>Person__c.Token__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Location_Tracing__c</members>
+        <members>Location__c</members>
+        <members>People_Tracing__c</members>
+        <members>Person__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Location_Tracing__c</members>
+        <members>Location__c</members>
+        <members>People_Tracing__c</members>
+        <members>Person__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Contact_Tracing_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Location_Tracing__c-Location Tracing Layout</members>
+        <members>Location__c-Location Layout</members>
+        <members>People_Tracing__c-People Tracing Layout</members>
+        <members>Person__c-Person Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Location_Tracing__c.All</members>
+        <members>Location__c.All</members>
+        <members>People_Tracing__c.All</members>
+        <members>Person__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Health_Admin</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>48.0</version>
+</Package>
